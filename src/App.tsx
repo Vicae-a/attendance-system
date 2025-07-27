@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useCallback, useMemo } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import {
-  Users, Calendar, BarChart3, Star, Heart, Crown, Plus, X, User, Phone, Mail,
-  MapPin, AlertCircle, Upload, Loader, Search, Filter, TrendingUp, Award,
-  Camera, Edit3, Trash2, Download, RefreshCw, Clock, CheckCircle2
+  Calendar, BarChart3, Star, Heart, Crown, Plus, X, User, Phone,
+  MapPin, AlertCircle, Upload, Loader, Search, Filter, CheckCircle2
 } from 'lucide-react';
-import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer, BarChart, Bar } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer } from 'recharts';
 
 // Import your actual Firebase services
 import { childrenService, attendanceService, addSampleData } from './services/firebaseServices';
