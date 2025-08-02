@@ -3,15 +3,12 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
-,
- "compilerOptions": {
+  ],
+  "compilerOptions": {
     "allowJs": true,
     "noEmit": true,
-    "checkJs": false
+    "checkJs": false,
+    "jsx": "react-jsx"
   },
-  "include": ["src"],
-  "jsx": "react-jsx"
-
-
+  "include": ["src"]
 }
