@@ -9,6 +9,8 @@ import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContai
 import { childrenService, attendanceService, addSampleData } from './services/firebaseServices';
 import logo from './clipart3307284.png'
 const EnhancedChildrensChurchAttendance = () => {
+
+  
   const [currentView, setCurrentView] = useState('dashboard');
   const [selectedClass, setSelectedClass] = useState(null);
   const [children, setChildren] = useState([]);
