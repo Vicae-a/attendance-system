@@ -5,11 +5,11 @@
     "jsx": "react-jsx",
     "noEmitOnError": false,
     "strict": false,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
     "target": "ESNext",
     "module": "ESNext",
-    "outDir": "dist"  // ✅ This is the key fix
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist"
   },
   "include": ["src"]
 }
