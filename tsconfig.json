@@ -3,12 +3,13 @@
     "allowJs": true,
     "checkJs": false,
     "jsx": "react-jsx",
-    "noEmitOnError": false,  // Allow build even with TS errors
-    "strict": false,         // Disable strict typing
-    "skipLibCheck": true,    // Ignore 3rd party type issues (important for Recharts)
-    "esModuleInterop": true, // Optional: improves import compatibility
-    "target": "ESNext",      // Optional: modern JS output
-    "module": "ESNext"       // Optional: use ES Modules
+    "noEmitOnError": false,
+    "strict": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist"  // ✅ This is the key fix
   },
   "include": ["src"]
 }
