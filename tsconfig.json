@@ -5,11 +5,13 @@
     { "path": "./tsconfig.node.json" }
   ]
 ,
-  "compilerOptions": {
+ "compilerOptions": {
     "allowJs": true,
-    "noImplicitAny": false,
-    "moduleResolution": "node"
-  
-}
+    "noEmit": true,
+    "checkJs": false
+  },
+  "include": ["src"],
+  "jsx": "react-jsx"
+
 
 }
